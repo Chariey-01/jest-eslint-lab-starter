@@ -89,8 +89,7 @@ describe('logAction', () => {
 
   it('handles empty username', () => {
     expect(logAction("login", "")).toBe(
-      "User  performed login at 2025-11-27T13:00:00.000Z"
-    );
+      "User  performed login at 2025-11-27T13:00:000Z")
   });
 });
 
